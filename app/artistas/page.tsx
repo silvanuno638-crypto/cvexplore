@@ -49,6 +49,54 @@ const artistas = [
     bibliografia: ["Dança Ma Mi Crioula (1994)", "Mim Ê Bô (2017)"],
     cor: "border-red-500"
   },
+  {
+    nome: "Ildo Lobo",
+    titulo: "A Voz de Ouro das Ilhas",
+    imagem: "https://images.genius.com/bb96aa72cfbb8fd75e0c948c206143ea.620x620x1.jpg",
+    bio: "Considerado o maior intérprete da morna de sua geração, Ildo Lobo elevou a música de Cabo Verde a palcos mundiais com sua voz potente e aveludada, mantendo a alma e o lirismo das tradições cabo-verdianas.",
+    bibliografia: ["Nos Morna (1996)", "Intelectual (2001)", "Incondicional (2004)"],
+    cor: "border-blue-600"
+},
+{
+    nome: "Ferro Gaita",
+    titulo: "Os Reis do Funaná",
+    imagem: "https://s.rfi.fr/media/display/efecbc2c-155c-11ea-94c2-005056a99247/w:980/p:16x9/ferro-gaita-ok_0.jpg",
+    bio: "Pioneiros na modernização do Funaná, o grupo trouxe o som do ferro e da gaita (acordeão) de volta ao centro da cultura cabo-verdiana, unindo gerações com uma performance explosiva e autêntica.",
+    bibliografia: ["Fundu di Barku (1997)", "Rei di Tabanka (1999)", "Bandêra Liberdade (2003)"],
+    cor: "border-orange-500"
+},
+{
+    nome: "Codé di Dona",
+    titulo: "O Mestre do Funaná",
+    imagem: "https://farm5.static.flickr.com/4038/4251442000_14050a934a_b.jpg",
+    bio: "Lenda viva da música de Santiago, o mestre da gaita (acordeão) compôs clássicos imortais que narram a vida rural e as lutas do povo cabo-verdiano com uma simplicidade poética e um ritmo ancestral.",
+    bibliografia: ["Capitão di Mar (1998)", "Codé-di-Dona (2001)", "Pomba (2002)"],
+    cor: "border-green-700"
+},
+{
+    nome: "Bana",
+    titulo: "O Rei da Morna",
+    imagem: "https://1.bp.blogspot.com/-7Jma31RSOoU/XH4chzmorbI/AAAAAAAAlMg/0iOXQ6Cu4AUWuOyrYApfUrtB4jy69IlpACLcBGAs/s1600/bana%2B784.jpg",
+    bio: "Dono de uma voz barítono inconfundível e uma presença de palco imponente, Bana foi o grande mentor de gerações de músicos e o principal divulgador da morna e da coladeira na Europa e no mundo.",
+    bibliografia: ["Bana canta a solo (1965)", "Gira Sol (1998)", "Canto de Amores (2005)"],
+    cor: "border-gray-800"
+},
+{
+    nome: "Zeca di Nha Reinalda",
+    titulo: "A Voz Rebelde do Funaná",
+    imagem: "https://www.caboverdeamusica.online/wp-content/uploads/2021/07/zeca-samuel-sequeira-lux.jpg",
+    bio: "Vocalista emblemático do grupo Bulimundo, Zeca revolucionou o Funaná ao introduzir instrumentos elétricos, transformando um ritmo rural num fenómeno urbano e de intervenção social.",
+    bibliografia: ["Bulimundo (1980)", "Djâm Brancu Dja (1982)", "Konbersu'l Trás (2013)"],
+    cor: "border-red-600"
+},
+{
+    nome: "X-Treme",
+    titulo: "Os Galãs do Zouk-Love",
+    imagem: "https://cdn-images.dzcdn.net/images/artist/3cc3e260649842e2054141e2402751c0/500x500.jpg",
+    bio: "Formado nos Países Baixos, o grupo X-Treme redefiniu o Zouk-Love para a nova geração, misturando harmonias vocais suaves com ritmos de dança eletrónicos que se tornaram hinos em todas as festas da lusofonia.",
+    bibliografia: ["X-Treme (1998)", "Dá-m Un Txêu (2000)", "Pura Sedução (2003)"],
+    cor: "border-pink-500"
+}
 ];
 
 export default function SeccaoArtistas() {
