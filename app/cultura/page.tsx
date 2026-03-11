@@ -36,12 +36,12 @@ export default function CulturaPage() {
            <div className="bg-white p-8 rounded-2xl shadow-lg">
               <h3 className="text-xl font-bold text-blue-800 mb-3">Ritmo</h3>
               <p className="text-gray-600">
-                <p>Morna</p> 
-                <p>Funana</p>
-                <p>Batuque</p>
-                <p>Tabanca</p>
-                <p>Coladeira</p>
-                </p>
+                <h2>Morna</h2>
+                <h2>Funana</h2>
+                <h2>Batuque</h2>
+                <h2>Tabanca</h2>
+                <h2>Coladeira</h2>
+              </p>
             </div>
         </section>
       </div>
