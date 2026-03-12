@@ -33,3 +33,62 @@ body {
   background-color: #f8fafc; /* Um cinza bem clarinho (slate-50) */
   color: #1e293b; /* Azul escuro para os textos (slate-800) */
 }
+@keyframes fadeIn {
+from { opacity:0 }
+to { opacity:1 }
+}
+
+.animate-fadeIn{
+animation: fadeIn .35s ease forwards;
+}
+
+@keyframes modalZoom {
+from{
+opacity:0;
+transform:scale(.85) translateY(20px);
+}
+to{
+opacity:1;
+transform:scale(1) translateY(0);
+}
+}
+
+.animate-modalZoom{
+animation: modalZoom .35s ease forwards;
+}
+@keyframes fadeIn {
+from {opacity:0}
+to {opacity:1}
+}
+
+.animate-fadeIn{
+animation: fadeIn .35s ease forwards;
+}
+
+@keyframes modalZoom{
+from{
+opacity:0;
+transform:scale(.85) translateY(20px);
+}
+to{
+opacity:1;
+transform:scale(1) translateY(0);
+}
+}
+
+.animate-modalZoom{
+animation: modalZoom .35s ease forwards;
+}
+
+@keyframes waveMove{
+0%{
+transform:translateX(0);
+}
+100%{
+transform:translateX(-50%);
+}
+}
+
+.animate-wave{
+animation: waveMove 12s linear infinite;
+}
