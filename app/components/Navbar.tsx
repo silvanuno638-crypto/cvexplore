@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="hidden md:flex gap-8 text-sm font-medium text-gray-600 items-center">
           <Link href="/" className="hover:text-blue-600 transition font-semibold text-blue-500">Historia</Link>
           <Link href="/ilhas" className="hover:text-blue-600 transition font-semibold text-blue-500">As 10 Ilhas</Link>
-          {/* NOVO LINK AQUI */}
+          <Link onClick={closeMenu} href="/turistas" className="hover:text-blue-600 transition font-semibold text-blue-500">Pontos turísticos</Link>
           <Link href="/artistas" className="hover:text-blue-600 transition font-semibold text-blue-500">Artistas</Link>
           <Link href="/cultura" className="hover:text-blue-600 transition font-semibold text-blue-500">Cultura</Link>
           <Link href="/contato" className="px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">
@@ -48,7 +48,7 @@ export default function Navbar() {
           
           {/* NOVO LINK MOBILE AQUI */}
           <Link onClick={closeMenu} href="/artistas" className="text-2xl font-bold text-blue-600 border-b-2 border-blue-600">Artistas</Link>
-          
+          <Link onClick={closeMenu} href="/turistas" className="text-2xl font-bold text-blue-600 border-b-2 border-blue-600">Pontos turísticos</Link>
           <Link onClick={closeMenu} href="/cultura" className="text-2xl font-bold text-blue-600 border-b-2 border-blue-600">Cultura</Link>
           <Link onClick={closeMenu} href="/contato" className="px-8 py-3 bg-blue-600 text-white rounded-full text-xl font-bold">
             Contacto
